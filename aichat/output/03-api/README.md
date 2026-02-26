@@ -2,7 +2,7 @@
 
 总计：112 个文档
 
-## 已完成 (65/112)
+## 已完成 (112/112)
 
 ### 第一轮
 - [x] Point.md - 点
@@ -83,62 +83,62 @@
 - [x] Riemannsum.md - 黎曼和
 - [x] Semicircle.md - 半圆
 
-## 待完成 (47/112)
+### 第八轮
+- [x] Slopefield.md - 斜率场
+- [x] Slopetriangle.md - 斜率三角形
+- [x] Smartlabel.md - 智能标签
+- [x] Spline.md - 样条曲线
+- [x] Stepfunction.md - 阶跃函数
+- [x] TangentTo.md - 到...的切线
+- [x] Tapemeasure.md - 卷尺
+- [x] Tracecurve.md - 轨迹曲线
+- [x] Turtle.md - 海龟
+- [x] Vectorfield.md - 向量场
 
-### 基础元素
-- [ ] Slopefield.md - 斜率场
-- [ ] Slopetriangle.md - 斜率三角形
-- [ ] Smartlabel.md - 智能标签
-- [ ] Spline.md - 样条曲线
-- [ ] Stepfunction.md - 阶跃函数
-- [ ] TangentTo.md - 到...的切线
-- [ ] Tapemeasure.md - 卷尺
-- [ ] Tracecurve.md - 轨迹曲线
-- [ ] Turtle.md - 海龟
-- [ ] Vectorfield.md - 向量场
+### 第九轮
+- [x] Axes3D.md - 3D 坐标轴
+- [x] Axis3D.md - 3D 单轴
+- [x] Circle3D.md - 3D 圆
+- [x] Curve3D.md - 3D 曲线
+- [x] Face3D.md - 3D 面
+- [x] ForeignObject.md - 外部对象
+- [x] Functiongraph3D.md - 3D 函数图像
+- [x] IntersectionCircle3D.md - 3D 圆交点
+- [x] IntersectionLine3D.md - 3D 直线交点
+- [x] Line3D.md - 3D 直线
 
-### 3D 元素
+### 第十轮
+- [x] Mesh3D.md - 3D 网格
+- [x] ParametricSurface3D.md - 3D 参数曲面
+- [x] Plane3D.md - 3D 平面
+- [x] Point3D.md - 3D 点
+- [x] Polygon3D.md - 3D 多边形
+- [x] Polyhedron3D.md - 3D 多面体
+- [x] Sphere3D.md - 3D 球体
+- [x] Text3D.md - 3D 文本
+- [x] Ticks3D.md - 3D 刻度
+- [x] Transformation3D.md - 3D 变换
 
-- [ ] Axes3D.md
-- [ ] Axis3D.md
-- [ ] Circle3D.md
-- [ ] Curve3D.md
-- [ ] Face3D.md
-- [ ] ForeignObject.md
-- [ ] Functiongraph3D.md
-- [ ] IntersectionCircle3D.md
-- [ ] IntersectionLine3D.md
-- [ ] Line3D.md
-- [ ] Mesh3D.md
-- [ ] ParametricSurface3D.md
-- [ ] Plane3D.md
-- [ ] Point3D.md
-- [ ] Polygon3D.md
-- [ ] Polyhedron3D.md
-- [ ] Sphere3D.md
-- [ ] Text3D.md
-- [ ] Ticks3D.md
-- [ ] Transformation3D.md
-- [ ] Vectorfield3D.md
-- [ ] View3D.md
+### 第十一轮
+- [x] Vectorfield3D.md - 3D 向量场
+- [x] View3D.md - 3D 视图
 
-### 特殊元素
-
-- [ ] Circumcenter.md - 外心
-- [ ] Circumcircle.md - 外接圆
-- [ ] CircumcircleArc.md - 外接圆弧
-- [ ] CircumcircleSector.md - 外接圆扇形
-- [ ] CurveDifference.md - 曲线差集
-- [ ] CurveIntersection.md - 曲线交集
-- [ ] CurveUnion.md - 曲线并集
-- [ ] Incenter.md - 内心
-- [ ] Incircle.md - 内切圆
-- [ ] MajorArc.md - 优弧
-- [ ] MajorSector.md - 优扇形
-- [ ] MinorArc.md - 劣弧
-- [ ] MinorSector.md - 劣扇形
-- [ ] NonReflexAngle.md - 非优角
-- [ ] ReflexAngle.md - 优角
+### 第十二轮
+- [x] Circumcenter.md - 外心
+- [x] Circumcircle.md - 外接圆
+- [x] CircumcircleArc.md - 外接圆弧
+- [x] CircumcircleSector.md - 外接圆扇形
+- [x] CurveDifference.md - 曲线差集
+- [x] CurveIntersection.md - 曲线交集
+- [x] CurveUnion.md - 曲线并集
+- [x] Incenter.md - 内心
+- [x] Incircle.md - 内切圆
+- [x] MajorArc.md - 优弧
+- [x] MajorSector.md - 优扇形
+- [x] MinorArc.md - 劣弧
+- [x] MinorSector.md - 劣扇形
+- [x] NonReflexAngle.md - 非优角
+- [x] ReflexAngle.md - 优角
 
 ---
 
@@ -153,7 +153,12 @@
 | 第五轮 | 10 | ✅ 已完成 |
 | 第六轮 | 10 | ✅ 已完成 |
 | 第七轮 | 10 | ✅ 已完成 |
-| 剩余 | 7 | ⏳ 待开始 |
+| 第八轮 | 10 | ✅ 已完成 |
+| 第九轮 | 10 | ✅ 已完成 |
+| 第十轮 | 10 | ✅ 已完成 |
+| 第十一轮 | 2 | ✅ 已完成 |
+| 第十二轮 | 15 | ✅ 已完成 |
+| 剩余 | 0 | ✅ 已完成 |
 
 ---
 
