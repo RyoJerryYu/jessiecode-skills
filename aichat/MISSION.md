@@ -12,11 +12,28 @@
 
 ## 安全规定(!!!important!!!)
 
-- 所有产出必须位于 @aichat/output/ 目录下。
-- 不得修改 @aichat/ 目录以外的文件。
+- 所有产出必须位于 `@aichat/output/` 目录下。
+- 不得修改 `@aichat/` 目录以外的文件。
 - 每完成一个步骤，都暂停并等待用户检查产出。
 
 ## 步骤详细
+
+### 输出目录结构
+
+```
+aichat/output/
+├── 01-research/           # 调研报告
+│   └── research-report.md
+├── 02-grammar/            # 语法规则文档
+│   └── grammar-reference.md
+├── 03-api/                # API 文档
+│   └── (按元素名称命名，如 Angle.md, Point.md 等)
+├── 04-examples/           # 示例代码文档
+│   ├── from-official/     # 官方示例
+│   └── from-user/         # 用户提供的示例
+└── 05-skill/              # 最终技能文档
+    └── jessiecode-writer/
+```
 
 ### 调研
 
@@ -61,7 +78,7 @@
 
 产出：
 
-- [ ] 语法规则文档
+- [ ] 语法规则文档（输出至 `02-grammar/grammar-reference.md`）
 
 ### API 文档
 
@@ -79,7 +96,7 @@
 
 由于文档内容量大，你需要按以下步骤分步产出：
 
-1. 阅读文件系统录结构，确认有多少文档，并填充下面 “API 文档产出清单” 中的 TODO List 项。
+1. 阅读文件系统结构，确认有多少文档，并填充下面 “API 文档产出清单” 中的 TODO List 项。
 2. 先阅读其中 5 个示例文档，理解其内容并产出 5 份 API 文档 Markdown 文档。然后勾选对应的 TODO List 项，暂停并等待用户检查产出。
 3. 第一轮用户检查通过后，你再以相同方法，每轮阅读 10 个文档，产出 10 份 API 文档 Markdown 文档。然后勾选对应的 TODO List 项，暂停并等待用户检查产出。
 4. 直到所有文档都被阅读完毕。
@@ -89,6 +106,10 @@
 - [ ] API 文档产出清单 TODO List
 - [ ] 第一轮 5 份 API 文档
 - [ ] API 文档产出清单中剩余的所有 API 文档
+
+**质量验证**：
+- 在转换过程中，如发现原文档有缺漏或错误，需在转换后的文档中添加备注说明
+- 每轮产出后，随机抽取 1-2 份文档与原 JSXGraph 文档进行比对，确保翻译准确性
 
 #### API 文档产出清单
 
@@ -106,19 +127,30 @@
 
 输出的示例代码 Markdown 文档中，需要为每个示例代码添加一个标题，并附加这段代码所代表的图形意义的描述。
 
+**质量验证**：
+- 每轮产出后，随机抽取 1-2 份示例代码进行验证，确保代码可运行且描述准确
+
 步骤：
 
 1. 读取文件系统结构，确认有多少个示例代码，并填充下面 “示例代码产出清单” 中的 TODO List 项。
 2. 阅读 @JessieCode-examples/ 目录下的 5 个示例代码，理解其图形意义，并编写 5 份示例代码 Markdown 文档。然后勾选对应的 TODO List 项，暂停并等待用户检查产出。
 3. 第一轮用户检查通过后，你再以相同方法，每轮阅读 10 个示例代码，产出 10 份示例代码 Markdown 文档。然后勾选对应的 TODO List 项，暂停并等待用户检查产出。
-6. 直到 @JessieCode-examples/ 目录下的所有示例代码都被阅读完毕。
-7. 继续对 @my-jessiecode-examples/ 目录下的示例代码进行同样的步骤。
-8. 直到 @my-jessiecode-examples/ 目录下的所有示例代码都被阅读完毕。
+4. 直到 @JessieCode-examples/ 目录下的所有示例代码都被阅读完毕。
+5. 继续对 @my-jessiecode-examples/ 目录下的示例代码进行同样的步骤。
+6. 直到 @my-jessiecode-examples/ 目录下的所有示例代码都被阅读完毕。
 
 产出：
 - [ ] 示例代码产出清单 TODO List
 - [ ] 第一轮 5 份示例代码 Markdown 文档
 - [ ] 示例代码产出清单中剩余的所有示例代码 Markdown 文档
+
+#### 示例代码文档格式
+
+每份示例代码文档应包含以下内容：
+- 标题：示例名称
+- 图形描述：这段代码所代表的图形意义
+- JessieCode 代码：完整的 JessieCode 代码
+- 知识点：涉及的 JessieCode/JSXGraph 知识点（可选）
 
 #### 示例代码产出清单
 
@@ -137,6 +169,18 @@
 你可能需要使用 `/skill-creator` 技能，来生成 `jessiecode-writer` 的技能。
 
 注意不要将所有内容都写入同一个 Markdown 文档，而是将内容拆分到 /references 中去。
+
+### 技能文档结构
+
+```
+jessiecode-writer/
+├── README.md              # 技能说明
+├── instructions.md        # 主要指令文档
+└── references/
+    ├── grammar.md         # 语法规则（引用自 02-grammar/）
+    ├── api/               # API 文档（引用自 03-api/）
+    └── examples/          # 示例代码（引用自 04-examples/）
+```
 
 产出：
 
