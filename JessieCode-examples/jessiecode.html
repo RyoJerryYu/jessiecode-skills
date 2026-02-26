@@ -1,0 +1,306 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+  <script type="text/javascript" src="../../JSXGraph/src/loadjsxgraph.js"></script>
+  <script type="text/javascript" src="../bin/parser.js"></script>
+    <script type="text/javascript" src="../src/interpreter.js"></script>
+</head>
+<body>
+
+
+<!--textarea id="unresolved_code" cols="90" rows="50" style="color:#880000;">
+
+    // A functionality which is absolutely needed:
+    // Anyonymous objects -- only with IDs!
+
+    point(1, 3) << id: "22", name: "No Name" >>;
+
+    id("22").strokeColor = #00ff00;
+    id("22").glide(c);
+    id("22").setLabel("Gleiter_ABC"); // should set name, htmlStr and label.content.name,
+                                    // label.content.htmlStr for consistency
+
+    // This one is also a MUST have
+    // and should delete "Gleiter_ABC"!
+
+    delete id("22");
+
+    // Another part which is essential:
+
+    C = point(1, 1) << id: "33" >>;
+    D = point(1, 3);
+
+    // We need to set or modify the X/Y coord function of a point.
+
+    D.X = function() {
+        return X(id("33"));
+    };
+
+    // or like so:
+
+    D.X = id("33").X;
+
+    // This functionality is needed for the handling of constrained (X/Y) points
+    // and the copying and measuring of objects -- the efforts to implement this
+    // will result in a CSS-safe log entry which can be recorded in the construction file
+    // and which is needed for secure reloads on portals like Moodle.
+</textarea-->
+
+<div id="jxgbox" class="jxgbox" style="width:800px; height:800px; float:left"></div>
+<div id="jxgbox2" class="jxgbox" style="width:800px; height:800px; float:left;"></div>
+<div id="debug" style="display:block;"></div>
+
+<script type="text/javascript">
+    board = JXG.JSXGraph.initBoard('jxgbox', {boundingbox: [-5, 5, 5, -5], axis:true});
+    board.jc = new JXG.JessieCode();
+    board.jc.use(board);
+
+    board2 = JXG.JSXGraph.initBoard('jxgbox2', {boundingbox: [-5, 5, 5, -5], axis:true});
+    board2.jc = new JXG.JessieCode();
+    board2.jc.use(board);
+
+    board.options.angle.type = 'sector';
+</script>
+
+<h2>Sourcecode:</h2>
+
+<textarea id="code" cols="90" rows="50">
+use jxgbox;
+//A = point(2, (1+5)/2);
+point(2, 3) << strokeColor : 'yellow', fillColor : 'green', id: 'wrzpfrmpf', name: 'A' >>;
+B = point(1, 1);
+C = point(-1, 1);
+
+D = point(2, -2);
+
+sqrt4 = 3.14159265358 ~= PI;
+
+D.X = function () {
+    return A.X() + 1 - X(B);
+};
+
+//B.color = 'green';
+
+$('wrzpfrmpf').strokeColor = 'black';
+
+M = point('(A.X()+B.X())/2', '(A.Y()+B.Y())/2');
+
+M.free();
+
+CC = circumcircle('wrzpfrmpf', B, C) << center: << visible: true, withLabel: true, name: 'The Midpoint' >>, strokeColor: 'red' >>;
+
+l = line(A, B);
+//l.strokeColor = A.strokeColor;
+B.fillColor = function () {
+    //B.strokeColor = 'blue';
+
+    if (A.X() > 0) {
+        return 'green';
+    } else {
+        return 'red';
+    }
+};
+
+add = function(a, b) {
+    if (b > 0) {
+        return a + b;
+    } else {
+        return a - b;
+    }
+};
+
+parab = function(x) {
+    return A.X()*x^2;
+};
+
+//t = text(-4, 2, function () { return 'X(l) = ' + add(2, M.X()) + '; dist(A, B) = ' + dist(A, B);}) << cssClass: 'foobar' >>;
+
+circle('wrzpfrmpf', M);
+p = plot(parab);
+plot(function (x) {
+    if (x > 0) {
+        return B.Y()*cos(x*3+2);
+    } else {
+        return B.Y()*sin(x*3+2);
+    }
+});
+
+p.strokeColor = '#CDEB8B';
+p.strokeWidth = 4;
+
+obj = << foo: 3, bar: 'baz', sub: << this: 99 >> >>;
+
+val = obj.sub.this;
+
+arr = [function () { return [3, 4]; }];
+foobar = arr[0]()[1];
+</textarea>
+
+<textarea id="code3" cols="90" rows="50" style="display: none">
+    use jxgbox2;
+    A = point(1, 1) << strokeColor : 'yellow', fillColor : 'green' >>;
+    A.strokeColor = 'black';
+
+    c = circle(A, 1);
+
+    B = point(0, 0);
+    //B.glide(c);
+
+    arr = [1, 2, 'str', function (x) { return 'booya'; }];
+    pooh = arr[1];
+    winnie = arr[3](2);
+
+    matroschka = [1, [1, 1]];
+    inside = matroschka[1][1];
+    matroschka[0] = 3;
+
+    //A.move(matroschka[1], 2000);
+
+    ax = axis([0, -1], [1, -1]);
+    ax.ticks.visible = false;
+
+    C = point(1, 0);
+    //cc = circumcircle(A, B, C);
+    //cc.center.visible = true;
+
+    B.X = function () {
+        return ((function () {
+            if (X(A) > 0) {
+                return X;
+            } else {
+                return Y;
+            }
+        })())(A);
+    };
+
+    D = point(-2.5, -2.5);
+    D.X = 'X(A)-5';
+
+    unrelentingpower = 2*2^2^5+1;
+
+    L = point(0, 0);
+
+    B.label.setText(function () {
+        return 'X(B\') = <strong>' + B.X() + '</strong>';
+    });
+
+    B.label.cssClass = 'this';
+
+    T = text(0, 0, 'Test Text') << casText: 'w0rd!' >>;
+
+    T.X = function() { return A.X(); };
+
+    ctxt = T.casText;
+
+    testFun = function () {
+        Q = point(1, 2) << color: 'black' >>;
+        Q.size = 9;
+        a = [1, 2, 3];
+        a[0] = a[2];
+
+        f = function(a, b, c) {
+            return a+b-c*(a-c)+2^a;
+        };
+
+        foo = 'bar\'s adventure';
+    };
+    testFun();
+</textarea>
+
+<textarea id="code4" cols="90" rows="50" style="display: none">
+    use jxgbox2;
+
+    point(2, 3) << id: 'wrzpfrmpf', name: 'A' >>;
+    t = text(1, 2, 'sticky!') << id: 'foobar' >>;
+    t.X = function () {
+        return X(A);
+    };
+    $('wrzpfrmpf').label.setText('&alpha;');
+
+    //t.free();
+
+    f = PI;
+    tr = trunc(f, 4);
+
+    m = !!false;
+    for (i = 0; i < 5; i = i+1) {
+        point(random()*2, random()*2) << name: 'random point no' + (i+1) >>;
+    }
+
+    str = '&#xCCB1;';
+</textarea>
+
+<textarea id="code2" cols="90" rows="50">
+    use jxgbox2;
+
+    point(1, 2) << name: 'B' >>;
+    point(1, 1) << name: 'A' >>;
+
+    c = circle(A, function () {
+        return dist(A, B);
+    });
+
+    b = 3;
+    a = function (x) {
+        if (x > 0) {
+            return B.Y()*cos(x*3+2);whatthehellhappenedtoyou 9 points : 32 minutes ago reply
+
+        } else {
+            return B.Y()*sin(x*3+2);
+        }
+    };
+
+    x = [1, 2];
+    y = [3, 4];
+    z = x % 2;
+
+    j = 0;
+    for (i = 0; i < 10; i = i+1) {
+        j = j + 1;
+    }
+
+    T = text(1, 1, 'foo');
+    T.setText('bar');
+    //a.move(1, 2);
+    $board.update();
+    hit = function (e, el) {
+        T.setText('You hit: ' + el.getName());
+    };
+    $board.on('hit', hit);
+
+    $board.setView([-10, 10, 10, -10], true);
+
+    (function () {
+        Q = point(5, 5);
+        P = point(3, 3) << color: 'green' >>;
+    })();
+
+    plot(function (x) {
+        return EULER*sin(x);
+    });
+</textarea>
+
+<textarea id="code7" cols="90" rows="50">
+    use jxgbox2;
+
+    x = 1;
+    y = function () {
+        return [1, 2];
+    };
+    a = y()[1];
+    r = sin(x)*cos(x);
+
+    text(1, 1, a.toString());
+    text(1, -1, r);
+</textarea>
+
+<pre>
+</pre>
+<script type="text/javascript">
+  var str = document.getElementById('code').value;
+
+  //var p1 = new JXG.JessieCode(str);
+  var p2 = new JXG.JessieCode(document.getElementById('code7').value);
+</script>
+</body>
+</html>

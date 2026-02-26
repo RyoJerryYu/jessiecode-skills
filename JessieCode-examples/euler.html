@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JessieCode example :: Euler line</title>
+    <link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+    <script type="text/javascript" src="../../JSXGraph/src/loadjsxgraph.js"></script>
+    <script type="text/javascript" src="../bin/parser.js"></script>
+    <script type="text/javascript" src="../src/interpreter.js"></script>
+</head>
+<body>
+
+<h1>Euler line</h1>
+
+<div style="float: left;">
+    <button id="reset">Reset board</button> <button id="parse">Parse code</button>
+</div>
+
+<br /><br />
+
+<div id="jxgbox" class="jxgbox" style="width: 500px; height: 500px; float:left"></div>
+
+<textarea id="code" cols="110" rows="31">// Prepare some visual properties
+cerise = <<
+    strokeColor: '#901B77',
+    fillColor: '#CA147A',
+    visible: true,
+    withLabel: true
+>>;
+grass = <<
+    strokeColor: '#009256',
+    fillColor: '#65B72E',
+    visible: true,
+    withLabel: true
+>>;
+perp = <<
+    strokeColor: 'black',
+    dash: 1,
+    strokeWidth: 1,
+    point: cerise
+>>;
+median = <<
+    strokeWidth: 1,
+    strokeColor: '#333333',
+    dash:2
+>>;
+
+// The triangle
+A = point(1, 0) cerise;
+B = point(-1, 0) cerise;
+C = point(0.2, 1.5) cerise;
+
+pol = polygon(A, B, C) << fillColor: '#FFFF00', borders: << strokeWidth: 2, strokeColor: '#009256' >> >>;
+
+// The perpendiculars
+H_c = perpendicularsegment(pol.borders[0], C) perp;
+H_a = perpendicularsegment(pol.borders[1], A) perp;
+H_b = perpendicularsegment(pol.borders[2], B) perp;
+
+// intersection
+H = intersection(H_c, H_b, 0) grass;
+
+// Midpoints
+mAB = midpoint(A, B) cerise;
+mBC = midpoint(B, C) cerise;
+mCA = midpoint(C, A) cerise;
+
+ma = segment(mBC, A) median;
+mb = segment(mCA, B) median;
+mc = segment(mAB, C) median;
+S = intersection(ma, mc, 0) grass;
+
+grass.name = 'U';
+c = circumcircle(A, B, C) << strokeColor: '#000000', dash: 3, strokeWidth: 1, center: grass >>;
+
+euler = line(H, S) << strokeWidth: 2, strokeColor:'#901B77' >>;</textarea>
+
+<script type="text/javascript">
+    /* <![CDATA[ */
+
+    (function () {
+        var board,
+            init = function () {
+                board = JXG.JSXGraph.initBoard('jxgbox', {boundingbox: [-1.5, 2, 1.5, -1], keepaspectratio:true});
+                board.jc = new JXG.JessieCode();
+                board.jc.use(board);
+            },
+            parse = function () {
+                board.jc.parse(document.getElementById('code').value);
+            };
+
+        init();
+        parse();
+
+        JXG.addEvent(document.getElementById('reset'), 'click', function () {
+            JXG.JSXGraph.freeBoard(board);
+            init();
+        }, this);
+
+        JXG.addEvent(document.getElementById('parse'), 'click', function () {
+            parse();
+        }, this);
+    })();
+
+    /* ]]> */
+</script>
+
+</body>
+</html>
