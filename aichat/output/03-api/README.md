@@ -2,7 +2,7 @@
 
 总计：112 个文档
 
-## 已完成 (25/112)
+## 已完成 (35/112)
 
 ### 第一轮
 - [x] Point.md - 点
@@ -35,20 +35,21 @@
 - [x] Button.md - 按钮
 - [x] Tangent.md - 切线
 
-## 待完成 (87/112)
+### 第四轮
+- [x] Arrow.md - 箭头
+- [x] Arrowparallel.md - 平行箭头
+- [x] Bisector.md - 角平分线
+- [x] Bisectorlines.md - 角平分线（直线）
+- [x] Boxplot.md - 箱线图
+- [x] Cardinalspline.md - Cardinal 样条曲线
+- [x] Chart.md - 图表
+- [x] Checkbox.md - 复选框
+- [x] Comb.md - 梳状图
+- [x] Conic.md - 圆锥曲线
+
+## 待完成 (77/112)
 
 ### 基础元素
-
-- [ ] Arrow.md - 箭头
-- [ ] Arrowparallel.md - 平行箭头
-- [ ] Bisector.md - 角平分线
-- [ ] Bisectorlines.md - 角平分线（直线）
-- [ ] Boxplot.md - 箱线图
-- [ ] Cardinalspline.md - Cardinal 样条曲线
-- [ ] Chart.md - 图表
-- [ ] Checkbox.md - 复选框
-- [ ] Comb.md - 梳状图
-- [ ] Conic.md - 圆锥曲线
 - [ ] Derivative.md - 导数
 - [ ] Grid.md - 网格
 - [ ] Group.md - 组
@@ -142,11 +143,11 @@
 | 第一轮 | 5 | ✅ 已完成 |
 | 第二轮 | 10 | ✅ 已完成 |
 | 第三轮 | 10 | ✅ 已完成 |
-| 第四轮 | 10 | ⏳ 待开始 |
+| 第四轮 | 10 | ✅ 已完成 |
 | 第五轮 | 10 | ⏳ 待开始 |
 | 第六轮 | 10 | ⏳ 待开始 |
 | 第七轮 | 10 | ⏳ 待开始 |
-| 剩余 | 32 | ⏳ 待开始 |
+| 剩余 | 37 | ⏳ 待开始 |
 
 ---
 
