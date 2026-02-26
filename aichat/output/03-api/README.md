@@ -2,7 +2,7 @@
 
 总计：112 个文档
 
-## 已完成 (15/112)
+## 已完成 (25/112)
 
 ### 第一轮
 - [x] Point.md - 点
@@ -23,30 +23,36 @@
 - [x] Transformation.md - 变换
 - [x] Ticks.md - 刻度
 
-## 待完成 (97/112)
+### 第三轮
+- [x] Axis.md - 坐标轴
+- [x] Curve.md - 曲线
+- [x] Functiongraph.md - 函数图像
+- [x] Ellipse.md - 椭圆
+- [x] Hyperbola.md - 双曲线
+- [x] Parabola.md - 抛物线
+- [x] Perpendicular.md - 垂线
+- [x] Parallel.md - 平行线
+- [x] Button.md - 按钮
+- [x] Tangent.md - 切线
+
+## 待完成 (87/112)
 
 ### 基础元素
 
 - [ ] Arrow.md - 箭头
 - [ ] Arrowparallel.md - 平行箭头
-- [ ] Axis.md - 坐标轴
 - [ ] Bisector.md - 角平分线
 - [ ] Bisectorlines.md - 角平分线（直线）
 - [ ] Boxplot.md - 箱线图
-- [ ] Button.md - 按钮
 - [ ] Cardinalspline.md - Cardinal 样条曲线
 - [ ] Chart.md - 图表
 - [ ] Checkbox.md - 复选框
 - [ ] Comb.md - 梳状图
 - [ ] Conic.md - 圆锥曲线
-- [ ] Curve.md - 曲线
 - [ ] Derivative.md - 导数
-- [ ] Ellipse.md - 椭圆
-- [ ] Functiongraph.md - 函数图像
 - [ ] Grid.md - 网格
 - [ ] Group.md - 组
 - [ ] Hatch.md - 剖面线
-- [ ] Hyperbola.md - 双曲线
 - [ ] Image.md - 图像
 - [ ] ImplicitCurve.md - 隐式曲线
 - [ ] Inequality.md - 不等式
@@ -61,11 +67,8 @@
 - [ ] Normal.md - 法线
 - [ ] Orthogonalprojection.md - 正交投影
 - [ ] OtherIntersection.md - 其他交点
-- [ ] Parabola.md - 抛物线
-- [ ] Parallel.md - 平行线
 - [ ] Parallelogram.md - 平行四边形
 - [ ] Parallelpoint.md - 平行点
-- [ ] Perpendicular.md - 垂线
 - [ ] PerpendicularPoint.md - 垂足
 - [ ] PerpendicularSegment.md - 垂线段
 - [ ] PolarLine.md - 极线
@@ -81,7 +84,6 @@
 - [ ] Smartlabel.md - 智能标签
 - [ ] Spline.md - 样条曲线
 - [ ] Stepfunction.md - 阶跃函数
-- [ ] Tangent.md - 切线
 - [ ] TangentTo.md - 到...的切线
 - [ ] Tapemeasure.md - 卷尺
 - [ ] Tracecurve.md - 轨迹曲线
@@ -139,10 +141,12 @@
 |------|------|------|
 | 第一轮 | 5 | ✅ 已完成 |
 | 第二轮 | 10 | ✅ 已完成 |
-| 第三轮 | 10 | ⏳ 待开始 |
+| 第三轮 | 10 | ✅ 已完成 |
 | 第四轮 | 10 | ⏳ 待开始 |
 | 第五轮 | 10 | ⏳ 待开始 |
-| ... | ... | ... |
+| 第六轮 | 10 | ⏳ 待开始 |
+| 第七轮 | 10 | ⏳ 待开始 |
+| 剩余 | 32 | ⏳ 待开始 |
 
 ---
 
