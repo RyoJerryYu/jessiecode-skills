@@ -2,20 +2,31 @@
 
 总计：112 个文档
 
-## 已完成 (5/112)
+## 已完成 (15/112)
 
+### 第一轮
 - [x] Point.md - 点
 - [x] Line.md - 直线
 - [x] Circle.md - 圆
 - [x] Segment.md - 线段
 - [x] Polygon.md - 多边形
 
-## 待完成 (107/112)
+### 第二轮
+- [x] Slider.md - 滑块
+- [x] Angle.md - 角度
+- [x] Text.md - 文本
+- [x] Intersection.md - 交点
+- [x] Midpoint.md - 中点
+- [x] Arc.md - 圆弧
+- [x] Sector.md - 扇形
+- [x] Glider.md - 滑点
+- [x] Transformation.md - 变换
+- [x] Ticks.md - 刻度
+
+## 待完成 (97/112)
 
 ### 基础元素
 
-- [ ] Angle.md - 角度
-- [ ] Arc.md - 圆弧
 - [ ] Arrow.md - 箭头
 - [ ] Arrowparallel.md - 平行箭头
 - [ ] Axis.md - 坐标轴
@@ -23,7 +34,7 @@
 - [ ] Bisectorlines.md - 角平分线（直线）
 - [ ] Boxplot.md - 箱线图
 - [ ] Button.md - 按钮
-- [ ] Cardinalspline.md -  Cardinal 样条曲线
+- [ ] Cardinalspline.md - Cardinal 样条曲线
 - [ ] Chart.md - 图表
 - [ ] Checkbox.md - 复选框
 - [ ] Comb.md - 梳状图
@@ -32,7 +43,6 @@
 - [ ] Derivative.md - 导数
 - [ ] Ellipse.md - 椭圆
 - [ ] Functiongraph.md - 函数图像
-- [ ] Glider.md - 滑点
 - [ ] Grid.md - 网格
 - [ ] Group.md - 组
 - [ ] Hatch.md - 剖面线
@@ -42,12 +52,10 @@
 - [ ] Inequality.md - 不等式
 - [ ] Input.md - 输入框
 - [ ] Integral.md - 积分
-- [ ] Intersection.md - 交点
 - [ ] Label.md - 标签
 - [ ] Legend.md - 图例
 - [ ] Measurement.md - 测量
 - [ ] Metapostspline.md - MetaPost 样条
-- [ ] Midpoint.md - 中点
 - [ ] MirrorElement.md - 镜像元素
 - [ ] MirrorPoint.md - 镜像点
 - [ ] Normal.md - 法线
@@ -67,9 +75,7 @@
 - [ ] Reflection.md - 反射
 - [ ] RegularPolygon.md - 正多边形
 - [ ] Riemannsum.md - 黎曼和
-- [ ] Sector.md - 扇形
 - [ ] Semicircle.md - 半圆
-- [ ] Slider.md - 滑块
 - [ ] Slopefield.md - 斜率场
 - [ ] Slopetriangle.md - 斜率三角形
 - [ ] Smartlabel.md - 智能标签
@@ -78,10 +84,7 @@
 - [ ] Tangent.md - 切线
 - [ ] TangentTo.md - 到...的切线
 - [ ] Tapemeasure.md - 卷尺
-- [ ] Text.md - 文本
-- [ ] Ticks.md - 刻度
 - [ ] Tracecurve.md - 轨迹曲线
-- [ ] Transformation.md - 变换
 - [ ] Turtle.md - 海龟
 - [ ] Vectorfield.md - 向量场
 
@@ -135,8 +138,10 @@
 | 批次 | 数量 | 状态 |
 |------|------|------|
 | 第一轮 | 5 | ✅ 已完成 |
-| 第二轮 | 10 | ⏳ 待开始 |
+| 第二轮 | 10 | ✅ 已完成 |
 | 第三轮 | 10 | ⏳ 待开始 |
+| 第四轮 | 10 | ⏳ 待开始 |
+| 第五轮 | 10 | ⏳ 待开始 |
 | ... | ... | ... |
 
 ---
