@@ -2,7 +2,7 @@
 
 总计：112 个文档
 
-## 已完成 (45/112)
+## 已完成 (55/112)
 
 ### 第一轮
 - [x] Point.md - 点
@@ -59,49 +59,21 @@
 - [x] Integral.md - 积分
 - [x] Label.md - 标签
 
-## 待完成 (67/112)
+### 第六轮
+- [x] Legend.md - 图例
+- [x] Measurement.md - 测量
+- [x] Metapostspline.md - MetaPost 样条
+- [x] MirrorElement.md - 镜像元素
+- [x] MirrorPoint.md - 镜像点
+- [x] Normal.md - 法线
+- [x] Orthogonalprojection.md - 正交投影
+- [x] OtherIntersection.md - 其他交点
+- [x] Parallelogram.md - 平行四边形
+- [x] Parallelpoint.md - 平行点
+
+## 待完成 (57/112)
 
 ### 基础元素
-- [ ] Legend.md - 图例
-- [ ] Measurement.md - 测量
-- [ ] Metapostspline.md - MetaPost 样条
-- [ ] MirrorElement.md - 镜像元素
-- [ ] MirrorPoint.md - 镜像点
-- [ ] Normal.md - 法线
-- [ ] Orthogonalprojection.md - 正交投影
-- [ ] OtherIntersection.md - 其他交点
-- [ ] Parallelogram.md - 平行四边形
-- [ ] Parallelpoint.md - 平行点
-- [ ] PerpendicularPoint.md - 垂足
-- [ ] PerpendicularSegment.md - 垂线段
-- [ ] PolarLine.md - 极线
-- [ ] PolePoint.md - 极点
-- [ ] PolygonalChain.md - 多段线
-- [ ] RadicalAxis.md - 根轴
-- [ ] Reflection.md - 反射
-- [ ] RegularPolygon.md - 正多边形
-- [ ] Riemannsum.md - 黎曼和
-- [ ] Semicircle.md - 半圆
-- [ ] Slopefield.md - 斜率场
-- [ ] Slopetriangle.md - 斜率三角形
-- [ ] Smartlabel.md - 智能标签
-- [ ] Spline.md - 样条曲线
-- [ ] Stepfunction.md - 阶跃函数
-- [ ] TangentTo.md - 到...的切线
-- [ ] Tapemeasure.md - 卷尺
-- [ ] Tracecurve.md - 轨迹曲线
-- [ ] Turtle.md - 海龟
-- [ ] Vectorfield.md - 向量场
-- [ ] Legend.md - 图例
-- [ ] Measurement.md - 测量
-- [ ] Metapostspline.md - MetaPost 样条
-- [ ] MirrorElement.md - 镜像元素
-- [ ] MirrorPoint.md - 镜像点
-- [ ] Normal.md - 法线
-- [ ] Orthogonalprojection.md - 正交投影
-- [ ] OtherIntersection.md - 其他交点
-- [ ] Parallelogram.md - 平行四边形
-- [ ] Parallelpoint.md - 平行点
 - [ ] PerpendicularPoint.md - 垂足
 - [ ] PerpendicularSegment.md - 垂线段
 - [ ] PolarLine.md - 极线
@@ -177,9 +149,9 @@
 | 第三轮 | 10 | ✅ 已完成 |
 | 第四轮 | 10 | ✅ 已完成 |
 | 第五轮 | 10 | ✅ 已完成 |
-| 第六轮 | 10 | ⏳ 待开始 |
+| 第六轮 | 10 | ✅ 已完成 |
 | 第七轮 | 10 | ⏳ 待开始 |
-| 剩余 | 27 | ⏳ 待开始 |
+| 剩余 | 17 | ⏳ 待开始 |
 
 ---
 
