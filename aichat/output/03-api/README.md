@@ -2,7 +2,7 @@
 
 总计：112 个文档
 
-## 已完成 (55/112)
+## 已完成 (65/112)
 
 ### 第一轮
 - [x] Point.md - 点
@@ -71,19 +71,21 @@
 - [x] Parallelogram.md - 平行四边形
 - [x] Parallelpoint.md - 平行点
 
-## 待完成 (57/112)
+### 第七轮
+- [x] PerpendicularPoint.md - 垂足
+- [x] PerpendicularSegment.md - 垂线段
+- [x] PolarLine.md - 极线
+- [x] PolePoint.md - 极点
+- [x] PolygonalChain.md - 多段线
+- [x] RadicalAxis.md - 根轴
+- [x] Reflection.md - 反射
+- [x] RegularPolygon.md - 正多边形
+- [x] Riemannsum.md - 黎曼和
+- [x] Semicircle.md - 半圆
+
+## 待完成 (47/112)
 
 ### 基础元素
-- [ ] PerpendicularPoint.md - 垂足
-- [ ] PerpendicularSegment.md - 垂线段
-- [ ] PolarLine.md - 极线
-- [ ] PolePoint.md - 极点
-- [ ] PolygonalChain.md - 多段线
-- [ ] RadicalAxis.md - 根轴
-- [ ] Reflection.md - 反射
-- [ ] RegularPolygon.md - 正多边形
-- [ ] Riemannsum.md - 黎曼和
-- [ ] Semicircle.md - 半圆
 - [ ] Slopefield.md - 斜率场
 - [ ] Slopetriangle.md - 斜率三角形
 - [ ] Smartlabel.md - 智能标签
@@ -150,8 +152,8 @@
 | 第四轮 | 10 | ✅ 已完成 |
 | 第五轮 | 10 | ✅ 已完成 |
 | 第六轮 | 10 | ✅ 已完成 |
-| 第七轮 | 10 | ⏳ 待开始 |
-| 剩余 | 17 | ⏳ 待开始 |
+| 第七轮 | 10 | ✅ 已完成 |
+| 剩余 | 7 | ⏳ 待开始 |
 
 ---
 
