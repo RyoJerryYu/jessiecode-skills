@@ -2,7 +2,7 @@
 
 总计：112 个文档
 
-## 已完成 (35/112)
+## 已完成 (45/112)
 
 ### 第一轮
 - [x] Point.md - 点
@@ -47,19 +47,51 @@
 - [x] Comb.md - 梳状图
 - [x] Conic.md - 圆锥曲线
 
-## 待完成 (77/112)
+### 第五轮
+- [x] Derivative.md - 导数
+- [x] Grid.md - 网格
+- [x] Group.md - 组
+- [x] Hatch.md - 剖面线
+- [x] Image.md - 图像
+- [x] ImplicitCurve.md - 隐式曲线
+- [x] Inequality.md - 不等式
+- [x] Input.md - 输入框
+- [x] Integral.md - 积分
+- [x] Label.md - 标签
+
+## 待完成 (67/112)
 
 ### 基础元素
-- [ ] Derivative.md - 导数
-- [ ] Grid.md - 网格
-- [ ] Group.md - 组
-- [ ] Hatch.md - 剖面线
-- [ ] Image.md - 图像
-- [ ] ImplicitCurve.md - 隐式曲线
-- [ ] Inequality.md - 不等式
-- [ ] Input.md - 输入框
-- [ ] Integral.md - 积分
-- [ ] Label.md - 标签
+- [ ] Legend.md - 图例
+- [ ] Measurement.md - 测量
+- [ ] Metapostspline.md - MetaPost 样条
+- [ ] MirrorElement.md - 镜像元素
+- [ ] MirrorPoint.md - 镜像点
+- [ ] Normal.md - 法线
+- [ ] Orthogonalprojection.md - 正交投影
+- [ ] OtherIntersection.md - 其他交点
+- [ ] Parallelogram.md - 平行四边形
+- [ ] Parallelpoint.md - 平行点
+- [ ] PerpendicularPoint.md - 垂足
+- [ ] PerpendicularSegment.md - 垂线段
+- [ ] PolarLine.md - 极线
+- [ ] PolePoint.md - 极点
+- [ ] PolygonalChain.md - 多段线
+- [ ] RadicalAxis.md - 根轴
+- [ ] Reflection.md - 反射
+- [ ] RegularPolygon.md - 正多边形
+- [ ] Riemannsum.md - 黎曼和
+- [ ] Semicircle.md - 半圆
+- [ ] Slopefield.md - 斜率场
+- [ ] Slopetriangle.md - 斜率三角形
+- [ ] Smartlabel.md - 智能标签
+- [ ] Spline.md - 样条曲线
+- [ ] Stepfunction.md - 阶跃函数
+- [ ] TangentTo.md - 到...的切线
+- [ ] Tapemeasure.md - 卷尺
+- [ ] Tracecurve.md - 轨迹曲线
+- [ ] Turtle.md - 海龟
+- [ ] Vectorfield.md - 向量场
 - [ ] Legend.md - 图例
 - [ ] Measurement.md - 测量
 - [ ] Metapostspline.md - MetaPost 样条
@@ -144,10 +176,10 @@
 | 第二轮 | 10 | ✅ 已完成 |
 | 第三轮 | 10 | ✅ 已完成 |
 | 第四轮 | 10 | ✅ 已完成 |
-| 第五轮 | 10 | ⏳ 待开始 |
+| 第五轮 | 10 | ✅ 已完成 |
 | 第六轮 | 10 | ⏳ 待开始 |
 | 第七轮 | 10 | ⏳ 待开始 |
-| 剩余 | 37 | ⏳ 待开始 |
+| 剩余 | 27 | ⏳ 待开始 |
 
 ---
 
