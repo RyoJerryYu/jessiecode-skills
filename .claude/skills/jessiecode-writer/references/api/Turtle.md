@@ -1,5 +1,7 @@
 # Turtle 海龟画笔
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 海龟画笔（Turtle）是一种类似于 Logo 或 PostScript 编程语言的图形范式。通过控制一只"海龟"在画布上移动并绘制轨迹，可以创建各种几何图形和图案。

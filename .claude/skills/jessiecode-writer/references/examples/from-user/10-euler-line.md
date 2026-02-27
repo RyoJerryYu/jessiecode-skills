@@ -12,52 +12,52 @@
 
 ```js
 // Triangle ABC
-tStyle = <<fillColor: 'yellow', fillOpacity: 0.2>>;
+tStyle = << fillColor: 'yellow', fillOpacity: 0.2 >>;
 A = point(-6, -5) tStyle;
 B = point(7, -4) tStyle;
 C = point(1, 6) tStyle;
-tri = polygon(A,B,C) tStyle;
+tri = polygon(A, B, C) tStyle;
 
-mStyle = <<opacity: 0.2>>;
-mAB = midpoint(A,B) mStyle;
-mBC = midpoint(B,C) mStyle;
-mCA = midpoint(C,A) mStyle;
+mStyle = << opacity: 0.2 >>;
+mAB = midpoint(A, B) mStyle;
+mBC = midpoint(B, C) mStyle;
+mCA = midpoint(C, A) mStyle;
 
 // circumcenter
 cStyle = <<
-dash: 2,
-color: 'green',
-strokeWidth: 1,
-radius: 0.5
+    dash: 2,
+    color: 'green',
+    strokeWidth: 1,
+    radius: 0.5
 >>;
 pAB = perpendicular(tri.borders[0], mAB) cStyle;
 pBC = perpendicular(tri.borders[1], mBC) cStyle;
 pCA = perpendicular(tri.borders[2], mCA) cStyle;
 
-angle(pAB, tri.borders[0], -1,-1)cStyle;
-angle(pBC, tri.borders[1], -1,-1)cStyle;
-angle(pCA, tri.borders[2], -1,-1)cStyle;
+angle(pAB, tri.borders[0], -1, -1) cStyle;
+angle(pBC, tri.borders[1], -1, -1) cStyle;
+angle(pCA, tri.borders[2], -1, -1) cStyle;
 
-circP = intersection(pAB,pBC) cStyle;
+circP = intersection(pAB, pBC) cStyle;
 
 // centroid
 gStyle = <<
-dash:2,
-color: 'blue',
-strokeWidth: 1
+    dash: 2,
+    color: 'blue',
+    strokeWidth: 1
 >>;
 mA = segment(A, mBC) gStyle;
 mB = segment(B, mCA) gStyle;
 mC = segment(C, mAB) gStyle;
 
-gravP = intersection(mA,mB) gStyle;
+gravP = intersection(mA, mB) gStyle;
 
 // orthocenter
 oStyle = <<
-dash:  2,
-color: 'red',
-strokeWidth: 1,
-radius: 0.5
+    dash: 2,
+    color: 'red',
+    strokeWidth: 1,
+    radius: 0.5
 >>;
 hA = perpendicularsegment(tri.borders[1], A) oStyle;
 hB = perpendicularsegment(tri.borders[2], B) oStyle;
@@ -67,10 +67,10 @@ angle(A, hA.point, B) oStyle;
 angle(B, hB.point, C) oStyle;
 angle(C, hC.point, A) oStyle;
 
-orthP = intersection(hA,hB) oStyle;
+orthP = intersection(hA, hB) oStyle;
 
 // euler line
-eline = line(circP, gravP) <<color: 'fuchsia'>>;
+eline = line(circP, gravP) << color: 'fuchsia' >>;
 ```
 
 ## 知识点

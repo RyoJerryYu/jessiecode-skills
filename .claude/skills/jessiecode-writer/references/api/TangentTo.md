@@ -1,5 +1,7 @@
 # TangentTo 切线
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 通过外部点作圆锥曲线或圆的切线。切线是直线的一种特殊形式。

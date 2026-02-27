@@ -1,5 +1,7 @@
 # Polygon3D 3D 多边形
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 3D 多边形是一系列按顺序连接的点，最后一个点与第一个点相连形成封闭图形。JSXGraph 不要求也不检查多边形是否共面。

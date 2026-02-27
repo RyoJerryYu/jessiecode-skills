@@ -1,5 +1,7 @@
 # PerpendicularSegment 垂线段
 
+<!-- USAGE_FREQUENCY: common -->
+
 ## 描述
 
 垂线段是垂直于给定直线并通过一个不在该直线上的点的线段。它是线段（Segment）的一种特殊形式，表示从点到直线的最短距离。

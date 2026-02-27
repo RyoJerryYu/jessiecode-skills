@@ -1,5 +1,7 @@
 # Axes3D 3D 坐标轴
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 一个容器元素，用于创建 3D 视图的坐标轴以及前后平面。

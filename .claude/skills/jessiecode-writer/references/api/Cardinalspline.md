@@ -1,5 +1,7 @@
 # Cardinalspline 基数样条曲线
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 基数样条曲线（Cardinal Spline）通过给定的数据点集创建平滑的插值曲线。使用基数样条插值算法，曲线会精确穿过所有给定的控制点，同时在点与点之间生成平滑的过渡。

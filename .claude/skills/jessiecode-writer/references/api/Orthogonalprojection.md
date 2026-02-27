@@ -1,5 +1,7 @@
 # Orthogonalprojection 正交投影点
 
+<!-- USAGE_FREQUENCY: common -->
+
 ## 描述
 
 正交投影点是将一个点垂直投影到一条直线上得到的点。该点位于直线上，且连接原点与投影点的线段与直线垂直。

@@ -1,5 +1,7 @@
 # Parallelpoint 平行点
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 给定三个点，平行点是指使得这四个点构成平行四边形的第四个点。

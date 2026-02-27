@@ -1,5 +1,7 @@
 # Arrowparallel 平行箭头
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 平行箭头是一种带箭头的线段，它平行于给定的线段。箭头从给定点出发，方向与参考线段相同。

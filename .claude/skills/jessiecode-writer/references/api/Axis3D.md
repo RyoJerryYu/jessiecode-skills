@@ -1,5 +1,7 @@
 # Axis3D 3D 单轴
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 3D 轴元素是一条带有可选刻度和标签的直线。

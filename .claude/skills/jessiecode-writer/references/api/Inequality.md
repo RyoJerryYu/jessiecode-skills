@@ -1,5 +1,7 @@
 # Inequality 不等式区域
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 不等式区域表示线性不等式或函数图像不等式的解集所对应的区域。例如，形式为 y <= f(x) 的不等式。

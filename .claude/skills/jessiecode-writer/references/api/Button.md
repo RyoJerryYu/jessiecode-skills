@@ -1,5 +1,7 @@
 # Button 按钮
 
+<!-- USAGE_FREQUENCY: core -->
+
 ## 描述
 
 按钮是包含 HTML 按钮标签的文本元素。点击按钮可以触发 JavaScript 或 JessieCode 代码。

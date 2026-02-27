@@ -1,5 +1,7 @@
 # Line3D 3D 直线
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 3D 直线由两个点定义，或由一个点和一个方向向量定义。

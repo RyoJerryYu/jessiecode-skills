@@ -11,18 +11,18 @@
 A = point(-6, -5);
 B = point(7, -4);
 C = point(1, 6);
-pol = polygon(A,B,C);
+pol = polygon(A, B, C);
 
-bCAB = bisector(C,A,B);
-bABC = bisector(A,B,C);
-bBCA = bisector(B,C,A);
+bCAB = bisector(C, A, B);
+bABC = bisector(A, B, C);
+bBCA = bisector(B, C, A);
 
-cI = incircle(A,B,C);
+cI = incircle(A, B, C);
 
-cc1 = intersection(bCAB,bABC)<<withLabel: false>>;
-cc2 = intersection(bABC,bBCA)<<withLabel: false>>;
-distance = sqrt((cc1.X()-cc2.X())**2+(cc1.Y()-cc2.Y())**2);
-text(-6,-6,"d = "+distance.toFixed(2));
+cc1 = intersection(bCAB, bABC) << withLabel: false >>;
+cc2 = intersection(bABC, bBCA) << withLabel: false >>;
+distance = sqrt((cc1.X()-cc2.X())^2+(cc1.Y()-cc2.Y())^2);
+text(-6, -6, "d = "+distance.toFixed(2));
 ```
 
 ## 知识点

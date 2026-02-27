@@ -1,5 +1,7 @@
 # OtherIntersection 另一交点
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 当两个几何元素（如曲线、圆或直线）有多个交点时，可以使用此元素创建"另一个"交点。

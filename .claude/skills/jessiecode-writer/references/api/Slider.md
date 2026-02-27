@@ -1,5 +1,7 @@
 # Slider 滑块
 
+<!-- USAGE_FREQUENCY: core -->
+
 ## 描述
 
 滑块用于在给定范围内选择数值。滑块是滑点 (Glider) 的一种特殊形式。

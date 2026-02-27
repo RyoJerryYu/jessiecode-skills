@@ -1,5 +1,7 @@
 # Stepfunction 阶跃函数
 
+<!-- USAGE_FREQUENCY: common -->
+
 ## 描述
 
 阶跃函数是一种分段为常数的函数图像。如果数据点需要在创建后更新，可以通过 `curve.xTerm` 和 `curve.yTerm` 访问。

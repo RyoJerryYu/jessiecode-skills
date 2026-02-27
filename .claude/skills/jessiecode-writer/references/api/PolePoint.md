@@ -1,5 +1,7 @@
 # PolePoint 极点
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 极点用于创建直线关于圆锥曲线或圆的极点。极点是直线关于圆锥曲线的唯一倒数关系点。

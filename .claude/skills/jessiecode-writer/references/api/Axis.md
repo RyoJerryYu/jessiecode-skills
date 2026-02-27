@@ -1,5 +1,7 @@
 # Axis 坐标轴
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 坐标轴是一种带有刻度和标签的直线。它本质上是 [Line](./Line.md) 的包装器，设置了 `straightFirst` 和 `straightLast` 属性为 true，并自动添加箭头和刻度。

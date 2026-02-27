@@ -22,38 +22,38 @@ $$
 ## JessieCode 代码
 
 ```js
-bound = [-1,1];
+bound = [-1, 1];
 zbound = [0, 2];
 planeStyle = <<
-	fillOpacity:0.2,
-	mesh3d:<<
-		stepWidthU:0.2,
-		stepWidthV:0.2,
-		strokeOpacity:0.2
-	>>
+    fillOpacity: 0.2,
+    mesh3d: <<
+        stepWidthU: 0.2,
+        stepWidthV: 0.2,
+        strokeOpacity: 0.2
+    >>
 >>;
-view = view3d([-7,-7], [14,14], [bound,bound, zbound])<<
-	xPlaneRear: planeStyle,
-	yPlaneRear: planeStyle,
-	zPlaneRear: planeStyle,
-	projection: "central"
+view = view3d([-7, -7], [14, 14], [bound, bound, zbound]) <<
+    xPlaneRear: planeStyle,
+    yPlaneRear: planeStyle,
+    zPlaneRear: planeStyle,
+    projection: 'central'
 >>;
 
-F = function(x,y){return x**2 + y**2;};
-fg = functiongraph3d(view, F, bound, bound)<<strokeWidth:0.5,stepsU:70,stepsV:70>>;
+F = function(x, y) { return x^2 + y^2; };
+fg = functiongraph3d(view, F, bound, bound) << strokeWidth: 0.5, stepsU: 70, stepsV: 70 >>;
 
-px = slider([4,-8], [8,-8], [-1,0,1]);
-py = slider([4,-8], [4,-4], [-1,1,1]);
+px = slider([4, -8], [8, -8], [-1, 0, 1]);
+py = slider([4, -8], [4, -4], [-1, 1, 1]);
 
-PX = function(){return px.Value();};
-PY = function(){return py.Value();};
-PZ = function(){return F(px.Value(), py.Value());};
-P = point3d(view,PX,PY,PZ);
+PX = function() { return px.Value(); };
+PY = function() { return py.Value(); };
+PZ = function() { return F(px.Value(), py.Value()); };
+P = point3d(view, PX, PY, PZ);
 
 tanXY = function(x, y) {
-	return 2*PX()*x+2*PY()*y-PX()*PX()-PY()*PY();
+    return 2 * PX() * x + 2 * PY() * y - PX() * PX() - PY() * PY();
 };
-functiongraph3d(view,tanXY, bound,bound);
+functiongraph3d(view, tanXY, bound, bound);
 ```
 
 ## 知识点

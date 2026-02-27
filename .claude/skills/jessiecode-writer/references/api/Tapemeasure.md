@@ -1,5 +1,7 @@
 # Tapemeasure 卷尺
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 卷尺用于测量点之间的距离。

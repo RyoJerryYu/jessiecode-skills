@@ -1,5 +1,7 @@
 # PerpendicularPoint 垂足点
 
+<!-- USAGE_FREQUENCY: common -->
+
 ## 描述
 
 垂足点是点在直线上的正交投影（垂直投影）得到的点。该点位于直线上，且连接原点与垂足点的线段与直线垂直。

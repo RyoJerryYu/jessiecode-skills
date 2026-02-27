@@ -1,5 +1,7 @@
 # Reflection 反射
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 将一个点、直线、圆、曲线、多边形关于给定直线进行反射。

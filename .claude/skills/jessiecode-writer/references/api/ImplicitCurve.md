@@ -1,5 +1,7 @@
 # ImplicitCurve 隐式曲线
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 隐式曲线是由两个坐标变量（通常是 *x* 和 *y*）之间的隐式方程定义的平面曲线。例如，单位圆由隐式方程 x² + y² = 1 定义。一般来说，每条隐式曲线都由形式为 *f(x, y) = 0* 的方程定义，其中 *f* 是一个双变量函数。（来源：[Wikipedia](https://en.wikipedia.org/wiki/Implicit_curve)）

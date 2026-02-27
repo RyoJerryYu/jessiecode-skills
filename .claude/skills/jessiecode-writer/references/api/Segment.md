@@ -1,5 +1,7 @@
 # Segment 线段
 
+<!-- USAGE_FREQUENCY: core -->
+
 ## 描述
 
 线段由两个端点定义。本质上是两端有限的直线（Line 元素的 `straightFirst` 和 `straightLast` 属性设为 false）。

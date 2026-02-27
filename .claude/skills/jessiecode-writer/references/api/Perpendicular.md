@@ -1,5 +1,7 @@
 # Perpendicular 垂线
 
+<!-- USAGE_FREQUENCY: core -->
+
 ## 描述
 
 垂线是通过一个不在给定直线上的点，且与该直线垂直的直线（或线段）。

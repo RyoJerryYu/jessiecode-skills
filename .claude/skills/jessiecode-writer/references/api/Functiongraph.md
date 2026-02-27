@@ -1,5 +1,7 @@
 # Functiongraph 函数图像
 
+<!-- USAGE_FREQUENCY: core -->
+
 ## 描述
 
 函数图像用于可视化映射 x → f(x)。图像在区间 [a, b] 上绘制，是 [Curve](./Curve.md) 元素的一种特例。

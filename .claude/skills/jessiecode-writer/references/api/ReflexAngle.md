@@ -1,5 +1,7 @@
 # ReflexAngle 优角
 
+<!-- USAGE_FREQUENCY: common -->
+
 ## 描述
 
 优角是角度大于 180° 的角。它由圆心、半径点和角度点三个点定义。

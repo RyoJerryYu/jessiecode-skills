@@ -1,5 +1,7 @@
 # CurveUnion 曲线并集
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 曲线并集是两个闭合路径元素的并集形成的路径。元素可以是曲线（curve）、圆（circle）、多边形（polygon）或不等式（inequality）类型。如果其中一个元素是曲线，它必须是闭合的。生成的元素是曲线（curve）类型。

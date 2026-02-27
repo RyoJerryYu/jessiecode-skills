@@ -1,5 +1,7 @@
 # Transformation3D 3D 变换
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 定义投影 3D 变换，如平移、旋转、反射、缩放等。变换基于 4x4 矩阵，可以应用于 3D 点、线、曲线等几何元素。

@@ -1,5 +1,7 @@
 # Label 标签
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 标签是绑定到其他元素（如点、线和曲线）的文本对象。标签由 JSXGraph 内部管理，没有构造函数 `board.create('label', ...)`。

@@ -11,17 +11,17 @@
 A = point(-6, -5);
 B = point(7, -4);
 C = point(1, 6);
-pol = polygon(A,B,C);
+pol = polygon(A, B, C);
 
-hA = perpendicularsegment(pol.borders[1], A) ;
-hB = perpendicularsegment(pol.borders[2], B) ;
-hC = perpendicularsegment(pol.borders[0], C) ;
+hA = perpendicularsegment(pol.borders[1], A);
+hB = perpendicularsegment(pol.borders[2], B);
+hC = perpendicularsegment(pol.borders[0], C);
 
 
-cc1 = intersection(hA,hB)<<withLabel: false>>;
-cc2 = intersection(hB,hC)<<withLabel: false>>;
-distance = sqrt((cc1.X()-cc2.X())**2+(cc1.Y()-cc2.Y())**2);
-text(-6,-6,"d = "+distance.toFixed(2));
+cc1 = intersection(hA, hB) << withLabel: false >>;
+cc2 = intersection(hB, hC) << withLabel: false >>;
+distance = sqrt((cc1.X()-cc2.X())^2+(cc1.Y()-cc2.Y())^2);
+text(-6, -6, "d = "+distance.toFixed(2));
 ```
 
 ## 知识点

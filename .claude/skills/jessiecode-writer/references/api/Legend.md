@@ -1,5 +1,7 @@
 # Legend 图例
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 为图表元素创建图例。参数是一对坐标。标签名称和标签颜色在属性中提供。

@@ -1,5 +1,7 @@
 # MirrorElement 镜像元素
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 将一个点、直线、圆、曲线、多边形关于给定点进行反射。

@@ -1,5 +1,7 @@
 # ForeignObject 外部对象
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 在 SVG foreignObject 容器中显示任何 HTML 内容 - 甚至可以显示在其他元素下方。

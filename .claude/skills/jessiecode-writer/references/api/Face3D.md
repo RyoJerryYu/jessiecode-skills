@@ -1,5 +1,7 @@
 # Face3D 3D 面
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 此元素创建一个 3D 面。

@@ -1,5 +1,7 @@
 # IntersectionCircle3D 3D 圆交点
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 3D 中两个元素（plane3d 或 sphere3d）相交形成的圆。

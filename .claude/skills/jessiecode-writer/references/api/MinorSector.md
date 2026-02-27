@@ -1,5 +1,7 @@
 # MinorSector 劣扇形
 
+<!-- USAGE_FREQUENCY: common -->
+
 ## 描述
 
 劣扇形是角度不超过 180 度（π 弧度）的扇形。它由圆心、半径点和角度点三个点定义。

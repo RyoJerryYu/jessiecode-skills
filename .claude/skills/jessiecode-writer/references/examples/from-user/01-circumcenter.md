@@ -11,22 +11,22 @@
 A = point(-6, -5);
 B = point(7, -4);
 C = point(1, 6);
-pol = polygon(A,B,C);
+pol = polygon(A, B, C);
 
-mAB = midpoint(A,B);
-mBC = midpoint(B,C);
-mAC = midpoint(A,C);
+mAB = midpoint(A, B);
+mBC = midpoint(B, C);
+mAC = midpoint(A, C);
 
 pAB = perpendicular(pol.borders[0], mAB);
 pBC = perpendicular(pol.borders[1], mBC);
 pAC = perpendicular(pol.borders[2], mAC);
 
-cABC = circle(A,B,C);
+cABC = circle(A, B, C);
 
-cc1 = intersection(pAB,pBC)<<withLabel: false>>;
-cc2 = intersection(pAB,pAC)<<withLabel: false>>;
-distance = sqrt((cc1.X()-cc2.X())**2+(cc1.Y()-cc2.Y())**2);
-text(-6,-6,"d = "+distance.toFixed(2));
+cc1 = intersection(pAB, pBC) << withLabel: false >>;
+cc2 = intersection(pAB, pAC) << withLabel: false >>;
+distance = sqrt((cc1.X()-cc2.X())^2+(cc1.Y()-cc2.Y())^2);
+text(-6, -6, "d = "+distance.toFixed(2));
 ```
 
 ## 知识点

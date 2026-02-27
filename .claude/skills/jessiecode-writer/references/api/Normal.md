@@ -1,5 +1,7 @@
 # Normal 法线
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 法线是垂直于直线或垂直于圆、曲线的切线的直线。

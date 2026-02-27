@@ -9,33 +9,33 @@
 ## JessieCode 代码
 
 ```js
-O = point(0,0)<<fixed:true>>;
-c = circle(O,1)<<strokeWidth:1>>;
-P = glider(0.6,0.8,c)<<withLabel:false>>;
-r = segment(O,P)<<visible: false>>;
-PX = point(function(){return P.X();}, 0)<<visible:false>>;
-PY = point(0, function(){return P.Y();})<<visible:false>>;
-xoneP = point(1,0)<<visible: false>>;
-yoneP = point(0,1)<<visible: false>>;
-theta = angle(xoneP,O,P)<<name: 'θ'>>;
+O = point(0, 0) << fixed: true >>;
+c = circle(O, 1) << strokeWidth: 1 >>;
+P = glider(0.6, 0.8, c) << withLabel: false >>;
+r = segment(O, P) << visible: false >>;
+PX = point(function() { return P.X(); }, 0) << visible: false >>;
+PY = point(0, function() { return P.Y(); }) << visible: false >>;
+xoneP = point(1, 0) << visible: false >>;
+yoneP = point(0, 1) << visible: false >>;
+theta = angle(xoneP, O, P) << name: 'θ' >>;
 
-xone = line([1,0], [1,1])<<strokeWidth:1>>;
-yone = line([0,1], [1,1])<<strokeWidth:1>>;
+xone = line([1, 0], [1, 1]) << strokeWidth: 1 >>;
+yone = line([0, 1], [1, 1]) << strokeWidth: 1 >>;
 
-tanP = intersection(r, xone)<<name:'正割点',color:'magenta'>>;
-cotP = intersection(r, yone)<<name:'余割点',color:'green'>>;
+tanP = intersection(r, xone) << name: '正割点', color: 'magenta' >>;
+cotP = intersection(r, yone) << name: '余割点', color: 'green' >>;
 
-sinL = segment(P, PX)<<name:'正弦',withLabel:true,color:'magenta'>>;
-cosL = segment(P, PY)<<name:'余弦',withLabel:true,color:'green'>>;
+sinL = segment(P, PX) << name: '正弦', withLabel: true, color: 'magenta' >>;
+cosL = segment(P, PY) << name: '余弦', withLabel: true, color: 'green' >>;
 
-tanL = segment(tanP, xoneP)<<name: '正切', withLabel: true, color: 'magenta'>>;
-cotL = segment(cotP, yoneP)<<name: '余切', withLabel: true, color: 'green'>>;
+tanL = segment(tanP, xoneP) << name: '正切', withLabel: true, color: 'magenta' >>;
+cotL = segment(cotP, yoneP) << name: '余切', withLabel: true, color: 'green' >>;
 
-secL = segment(tanP, O)<<name: '正割',withLabel:true, color:'magenta',dash:1,strokeWidth:4>>;
-cscL = segment(cotP, O)<<name: '余割',withLabel:true, color: 'green',dash:2,strokeWidth:4>>;
+secL = segment(tanP, O) << name: '正割', withLabel: true, color: 'magenta', dash: 1, strokeWidth: 4 >>;
+cscL = segment(cotP, O) << name: '余割', withLabel: true, color: 'green', dash: 2, strokeWidth: 4 >>;
 
-versinL = segment(PX,xoneP)<<name:'正矢',withLabel:true,color:'magenta'>>;
-coversinL = segment(PY,yoneP)<<name:'余矢',withLabel:true,color:'green'>>;
+versinL = segment(PX, xoneP) << name: '正矢', withLabel: true, color: 'magenta' >>;
+coversinL = segment(PY, yoneP) << name: '余矢', withLabel: true, color: 'green' >>;
 ```
 
 ## 知识点

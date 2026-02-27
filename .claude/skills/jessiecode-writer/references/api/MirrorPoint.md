@@ -1,5 +1,7 @@
 # MirrorPoint 镜像点
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 镜像点是 [MirrorElement](./MirrorElement.md) 的一种特殊情况。

@@ -7,15 +7,15 @@
 ## JessieCode 代码
 
 ```js
-bound = [-10,10];
-view = view3d([-7,-7], [14,14], [bound,bound, bound])<<
-	xPlaneRear: <<visible: false>>,
-	yPlaneRear: <<visible: false>>,
-	projection: "central"
+bound = [-10, 10];
+view = view3d([-7, -7], [14, 14], [bound, bound, bound]) <<
+    xPlaneRear: << visible: false >>,
+    yPlaneRear: << visible: false >>,
+    projection: 'central'
 >>;
 
-F = function(x,y){return sin(x)+sin(y);};
-functiongraph3d(view, F, bound, bound)<<strokeWidth:0.5,stepsU:70,stepsV:70>>;
+F = function(x, y) { return sin(x) + sin(y); };
+functiongraph3d(view, F, bound, bound) << strokeWidth: 0.5, stepsU: 70, stepsV: 70 >>;
 ```
 
 ## 知识点

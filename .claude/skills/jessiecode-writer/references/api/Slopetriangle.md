@@ -1,5 +1,7 @@
 # Slopetriangle 斜率三角形
 
+<!-- USAGE_FREQUENCY: common -->
+
 ## 描述
 
 斜率三角形用于可视化曲线、圆或直线的切线斜率。

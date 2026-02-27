@@ -1,5 +1,7 @@
 # IntersectionLine3D 3D 直线交点
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 3D 中两个（无限）平面元素相交形成的直线。

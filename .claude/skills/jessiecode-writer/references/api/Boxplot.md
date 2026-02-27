@@ -1,5 +1,7 @@
 # Boxplot 箱线图
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 箱线图（Boxplot）用于通过四分位数展示数值数据的分布情况。箱线图可以垂直或水平显示，通过 `dir` 属性控制方向。

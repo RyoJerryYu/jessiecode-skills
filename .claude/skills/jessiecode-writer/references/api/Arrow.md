@@ -1,5 +1,7 @@
 # Arrow 箭头
 
+<!-- USAGE_FREQUENCY: common -->
+
 ## 描述
 
 箭头是带箭头的线段。本质上是 [Line](./Line.md) 元素的封装，将 `straightFirst` 和 `straightLast` 属性设为 `false`，并将 `lastArrow` 设为 `true`。

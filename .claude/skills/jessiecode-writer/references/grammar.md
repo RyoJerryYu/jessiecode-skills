@@ -370,7 +370,7 @@ pol = polygon(A, B, C) <<
 | 圆 | `circle(center, point)` | `circle(O, A)` |
 | 三角形 | `polygon(A, B, C)` | `polygon(A, B, C)` |
 | 中点 | `midpoint(A, B)` | `midpoint(A, B)` |
-| 交点 | `intersection(line1, line2, index)` | `intersection(l1, l2, 0)` |
+| 交点 | `intersection(el1, el2, index)` | `intersection(l1, l2, 0)` |
 | 垂线 | `perpendicular(line, point)` | `perpendicular(l, P)` |
 | 平行线 | `parallel(line, point)` | `parallel(l, P)` |
 | 滑块 | `slider(min, max, step)` | `slider(0, 10, 0.1)` |

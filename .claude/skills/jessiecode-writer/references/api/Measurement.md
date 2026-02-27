@@ -1,5 +1,7 @@
 # Measurement 测量
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 测量是用于显示几何元素的测量值以及测量值的算术运算。在内部，这是一个具有 Value 方法的文本元素。要显示的文本是前缀表达式求值的结果，参见 [JXG.PrefixParser](./JXG.PrefixParser.md)。

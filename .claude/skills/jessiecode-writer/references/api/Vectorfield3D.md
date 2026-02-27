@@ -1,5 +1,7 @@
 # Vectorfield3D 3D 向量场
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 向量场是对 3D 空间中每个点分配一个向量。

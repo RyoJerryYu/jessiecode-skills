@@ -1,5 +1,7 @@
 # Parallelogram 平行四边形
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 平行四边形是一种四边形，其对边相互平行。

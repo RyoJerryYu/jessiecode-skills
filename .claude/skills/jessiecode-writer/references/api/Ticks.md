@@ -1,5 +1,7 @@
 # Ticks 刻度
 
+<!-- USAGE_FREQUENCY: common -->
+
 ## 描述
 
 刻度用于在直线或曲线上标记距离。主要用于坐标轴和滑块元素。刻度可以无限延伸或有限延伸，可以通过 `majorHeight` 和 `minorHeight` 属性控制。

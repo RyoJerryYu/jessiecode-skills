@@ -1,5 +1,7 @@
 # Point 点
 
+<!-- USAGE_FREQUENCY: core -->
+
 ## 描述
 
 点是最基本的几何元素。可以创建自由点或固定点。

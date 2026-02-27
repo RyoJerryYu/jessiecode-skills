@@ -1,5 +1,7 @@
 # Polyhedron3D 3D 多面体
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 3D 多面体由多个面组成，每个面由顶点定义。多面体需要指定顶点列表和每个面的顶点索引。

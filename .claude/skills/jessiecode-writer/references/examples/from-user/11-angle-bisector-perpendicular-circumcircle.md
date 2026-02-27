@@ -12,40 +12,40 @@
 
 ```js
 // Triangle ABC
-tStyle = <<color: 'gray'>>;
-A = point(-6, -5)tStyle;
+tStyle = << color: 'gray' >>;
+A = point(-6, -5) tStyle;
 B = point(7, -4) tStyle;
-C = point(1, 6)tStyle;
-pol = polygon(A,B,C) tStyle;
+C = point(1, 6) tStyle;
+pol = polygon(A, B, C) tStyle;
 
-mStyle = <<color: 'gray',withLabel: false>>;
-mAB = midpoint(A,B) mStyle;
-mBC = midpoint(B,C) mStyle;
-mCA = midpoint(C,A) mStyle;
+mStyle = << color: 'gray', withLabel: false >>;
+mAB = midpoint(A, B) mStyle;
+mBC = midpoint(B, C) mStyle;
+mCA = midpoint(C, A) mStyle;
 
 // circumcenter
-cStyle = <<strokeColor: 'green', strokeWidth: 1.5>>;
+cStyle = << strokeColor: 'green', strokeWidth: 1.5 >>;
 pAB = perpendicular(pol.borders[0], mAB) cStyle;
 pBC = perpendicular(pol.borders[1], mBC) cStyle;
 pCA = perpendicular(pol.borders[2], mCA) cStyle;
 
-ccABC = circle(A,B,C) cStyle;
-cP = intersection(pAB,pBC) cStyle;
+ccABC = circle(A, B, C) cStyle;
+cP = intersection(pAB, pBC) cStyle;
 
 // incenter
-iStyle = <<strokeColor: 'magenta', strokeWidth: 1.5>>;
-bCAB = bisector(C,A,B) iStyle;
-bABC = bisector(A,B,C) iStyle;
-bBCA = bisector(B,C,A) iStyle;
+iStyle = << strokeColor: 'magenta', strokeWidth: 1.5 >>;
+bCAB = bisector(C, A, B) iStyle;
+bABC = bisector(A, B, C) iStyle;
+bBCA = bisector(B, C, A) iStyle;
 
-ciABC = incircle(A,B,C) iStyle;
+ciABC = incircle(A, B, C) iStyle;
 iP = intersection(bCAB, bABC) iStyle;
 
 // intersection
-sStyle = <<color: 'blue'>>;
-intersection(pBC, bCAB)sStyle;
-intersection(pCA, bABC)sStyle;
-intersection(pAB, bBCA)sStyle;
+sStyle = << color: 'blue' >>;
+intersection(pBC, bCAB) sStyle;
+intersection(pCA, bABC) sStyle;
+intersection(pAB, bBCA) sStyle;
 ```
 
 ## 知识点

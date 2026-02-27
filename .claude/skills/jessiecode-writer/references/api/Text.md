@@ -1,5 +1,7 @@
 # Text 文本
 
+<!-- USAGE_FREQUENCY: core -->
+
 ## 描述
 
 文本元素用于在画布上显示文字。支持 HTML、MathJax、KaTeX 和 GEONExT 语法。坐标可以是绝对的（相对于画布坐标系）或相对于某个锚点元素。

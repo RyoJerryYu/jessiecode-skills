@@ -7,19 +7,19 @@
 ## JessieCode 代码
 
 ```js
-f = functiongraph(function(x){return x**2;});
-p = glider(1,1,f)<<
-	name: "$tanglent$",
-	label: <<
-		fontsize: 16,
-		color: "magenta"
-	>>
+f = functiongraph(function(x) { return x^2; });
+p = glider(1, 1, f) <<
+    name: '$tanglent$',
+    label: <<
+        fontsize: 16,
+        color: 'magenta'
+    >>
 >>;
 
-t = tangent(p)<<color: "magenta">>;
-text(-5,4,"$f(x)=x^2$")<<fontsize: 18>>;
-text(-5,3.2, function(){return "$x = "+p.X().toFixed(2)+"$";})<<fontsize:18>>;
-text(-5,2.4,function(){return "$k = "+t.Slope().toFixed(2)+"$";})<<fontsize:18>>;
+t = tangent(p) << color: 'magenta' >>;
+text(-5, 4, '$f(x)=x^2$') << fontsize: 18 >>;
+text(-5, 3.2, function() { return '$x = '+p.X().toFixed(2)+'$'; }) << fontsize: 18 >>;
+text(-5, 2.4, function() { return '$k = '+t.Slope().toFixed(2)+'$'; }) << fontsize: 18 >>;
 ```
 
 ## 知识点

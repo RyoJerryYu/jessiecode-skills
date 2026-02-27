@@ -1,5 +1,7 @@
 # Plane3D 3D 平面
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 3D 平面由一个点和两个线性无关的向量定义，或者由三个点定义。

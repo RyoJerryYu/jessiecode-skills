@@ -274,4 +274,34 @@ A.strokeColor = 'red';
 
 ## Version
 
-v1.0 - Initial release with complete grammar, API docs (112 elements), and 38 examples
+v1.1 - Improved with frequency-tagged API docs, quick start guide, and example index
+
+## Boundaries
+
+- **2D only**: Do not generate complex 3D animation code
+- **No external resources**: Do not reference external images or files
+- **Clarify ambiguity**: For ambiguous requirements, ask clarifying questions before generating code
+- **Scope limit**: Focus on geometric constructions and function graphs within JSXGraph capabilities
+
+## Output Format
+
+When generating JessieCode code:
+
+1. **Use code blocks**: Always use `jessiecode` language identifier
+   ```jessiecode
+   ---
+   boundingBox: [-5, 5, 5, -5]
+   ---
+   A = point(1, 2);
+   ```
+
+2. **Add brief explanation before code**: Explain what the code demonstrates
+
+3. **Add key points after code**: Highlight important techniques used
+
+4. **Code structure**:
+   - Configuration (frontmatter with `---`)
+   - Style definitions (optional)
+   - Base elements (points, sliders)
+   - Derived elements (lines, circles, etc.)
+   - Labels and annotations

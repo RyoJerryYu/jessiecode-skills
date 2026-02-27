@@ -1,5 +1,7 @@
 # Curve3D 3D 曲线
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 3D 曲线可以通过参数映射或离散数据集定义。一般来说，3D 曲线是从 R 到 R³ 的映射，t 映射到 (x(t), y(t), z(t))。图像在区间 [a, b] 上绘制。

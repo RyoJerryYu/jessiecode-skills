@@ -1,5 +1,7 @@
 # ParametricSurface3D 3D 参数曲面
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 3D 参数曲面可视化一个映射 (u, v) → [X(u, v), Y(u, v), Z(u, v)]，即通过参数方程定义的三维曲面。

@@ -1,5 +1,7 @@
 # Input 输入框
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 Input 元素用于创建包含 HTML 表单输入元素的特殊文本。该元素的 "display" 属性必须设置为 'html'（默认值）。

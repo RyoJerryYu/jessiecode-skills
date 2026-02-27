@@ -1,5 +1,7 @@
 # Vectorfield 向量场
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 向量场可以可视化为一组带有给定大小和方向的箭头，每个箭头都附着在平面上的一个点上。

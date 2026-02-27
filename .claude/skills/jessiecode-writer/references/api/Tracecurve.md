@@ -1,5 +1,7 @@
 # Tracecurve 轨迹曲线
 
+<!-- USAGE_FREQUENCY: core -->
+
 ## 描述
 
 轨迹曲线是一种简单的_locus curve_（轨迹曲线），显示依赖于滑动点的动点所形成的运动轨迹。

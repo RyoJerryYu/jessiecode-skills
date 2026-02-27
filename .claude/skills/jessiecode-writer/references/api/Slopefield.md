@@ -1,5 +1,7 @@
 # Slopefield 斜率场
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 斜率场是一阶标量函数微分方程解的图形化表示。

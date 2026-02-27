@@ -1,5 +1,7 @@
 # Bisector 角平分线
 
+<!-- USAGE_FREQUENCY: common -->
+
 ## 描述
 
 角平分线是一条将角分成两个相等角度的直线。它由三个点 A、B、C 定义，平分角 ABC。

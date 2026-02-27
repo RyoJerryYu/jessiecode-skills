@@ -1,5 +1,7 @@
 # Derivative 导数
 
+<!-- USAGE_FREQUENCY: common -->
+
 ## 描述
 
 导数元素用于可视化给定曲线的（数值）导数函数图像。

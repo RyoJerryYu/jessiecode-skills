@@ -1,5 +1,7 @@
 # PolarLine 极线
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 点的极线是点关于圆锥曲线或圆的唯一 reciprocal 关系（配极关系）。

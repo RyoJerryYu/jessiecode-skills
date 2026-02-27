@@ -1,5 +1,7 @@
 # Parallel 平行线
 
+<!-- USAGE_FREQUENCY: core -->
+
 ## 描述
 
 平行线是通过一个给定点，且与给定直线平行的直线。

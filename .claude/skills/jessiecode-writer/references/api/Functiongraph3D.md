@@ -1,5 +1,7 @@
 # Functiongraph3D 3D 函数图像
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 3D 函数图像可视化映射 (x, y) → f(x, y)。该图像是一个 [Curve3D](./Curve3D.md) 元素。

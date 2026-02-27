@@ -1,5 +1,7 @@
 # Metapostspline 元样条曲线
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 使用来自 Metapost（由 Donald Knuth 和 John Hobby 开发）的样条曲线插值数据点。创建由样本点 p_1 到 p_n 定义的动态 Metapost 样条插值曲线。

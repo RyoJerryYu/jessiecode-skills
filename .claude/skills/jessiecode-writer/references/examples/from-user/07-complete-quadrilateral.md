@@ -7,27 +7,27 @@
 ## JessieCode 代码
 
 ```js
-A = point(-4, -2)<<color:'red'>>;
-B = point(0,-2)<<color:'red'>>;
-lAB = line(A,B);
+A = point(-4, -2) << color: 'red' >>;
+B = point(0, -2) << color: 'red' >>;
+lAB = line(A, B);
 
-C = glider(4,0,lAB)<<color: 'red'>>;
+C = glider(4, 0, lAB) << color: 'red' >>;
 
-E = point(1,4);
-lAE = line(A,E);
-lBE = line(B,E);
+E = point(1, 4);
+lAE = line(A, E);
+lBE = line(B, E);
 
-F = glider(0,0,lAE);
-lCF = line(C,F);
+F = glider(0, 0, lAE);
+lCF = line(C, F);
 G = intersection(lCF, lBE);
 
-lAG = line(A,G)<<dash:2>>;
-lBF = line(B,F)<<dash:2>>;
-H = intersection(lAG,lBF);
-lEH = line(E,H)<<dash:2>>;
-D = intersection(lAB, lEH)<<color:'red'>>;
+lAG = line(A, G) << dash: 2 >>;
+lBF = line(B, F) << dash: 2 >>;
+H = intersection(lAG, lBF);
+lEH = line(E, H) << dash: 2 >>;
+D = intersection(lAB, lEH) << color: 'red' >>;
 
-text(2,-4,function(){return "|AD|/|BD|=|AC|/|BC|";});
+text(2, -4, function() { return '|AD|/|BD|=|AC|/|BC|'; });
 ```
 
 ## 知识点

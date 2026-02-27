@@ -1,5 +1,7 @@
 # Image 图像
 
+<!-- USAGE_FREQUENCY: common -->
+
 ## 描述
 
 图像元素用于在画布上显示外部图片。

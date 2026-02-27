@@ -1,5 +1,7 @@
 # Hatch 刻度标记
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 刻度标记是一组短线段，用于标记全等的线段或曲线。

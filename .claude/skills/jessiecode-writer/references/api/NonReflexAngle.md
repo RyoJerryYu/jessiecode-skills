@@ -1,5 +1,7 @@
 # NonReflexAngle 非优角
 
+<!-- USAGE_FREQUENCY: common -->
+
 ## 描述
 
 非优角是角度不超过 180° 的角。它由圆心、半径点和角度点三个点定义。

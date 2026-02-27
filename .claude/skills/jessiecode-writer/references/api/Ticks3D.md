@@ -1,5 +1,7 @@
 # Ticks3D 3D 刻度
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 刻度用于在 3D 视图中作为直线上的距离标记。

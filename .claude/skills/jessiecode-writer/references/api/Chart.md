@@ -1,5 +1,7 @@
 # Chart 图表
 
+<!-- USAGE_FREQUENCY: advanced -->
+
 ## 描述
 
 图表元素用于数据可视化，支持多种图表类型：柱状图 (bar)、拟合图 (fit)、折线图 (line)、饼图 (pie)、点图 (point)、雷达图 (radar)、样条曲线图 (spline)。
