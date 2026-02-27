@@ -299,10 +299,6 @@ circum = circumcircle(A, B, C) <<
     dash: 1
 >>;
 
-// 内切圆（如果 JessieCode 支持）
-// incenter = anglebisector(A, B, C) 和 anglebisector(B, C, A) 的交点
-// incircle = circle(incenter, ...)
-
 // 显示外接圆半径
 text(1, 5, "Circumradius: " + circum.Radius().toFixed(3));
 ```
